@@ -1,0 +1,9 @@
+.h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.blog_description {
+    box-shadow: 4px 4px 5px #0e0f11;
+}
