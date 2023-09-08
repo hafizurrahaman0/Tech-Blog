@@ -7,3 +7,10 @@
 .blog_description {
     box-shadow: 4px 4px 5px #0e0f11;
 }
+
+/* Custom Card Image Style */
+@media only screen and (max-width: 768px) {
+	#table_no {
+        display: none;
+	}
+  }
