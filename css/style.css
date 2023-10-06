@@ -1,11 +1,42 @@
+:root {
+    --primary-color: #212529;
+    --secondary-color: #3a4147;
+
+}
+
 .h1 {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-weight: bold;
     letter-spacing: 1.2px;
 }
 
 .blog_description {
     box-shadow: 4px 4px 5px #0e0f11;
+}
+
+.nav-bar {
+    background-color: var(--secondary-color);
+}
+
+.box-shadow {
+    box-shadow: 3px 3px 1px var(--primary-color);
+}
+
+.box-shadow-dark {
+    box-shadow: 3px 3px 1px var(--secondary-color);
+}
+
+/* Text Effects And Stylings */
+
+.hero-text {
+    height: 25vh;
+    font-family: poppins;
+    /* font-weight: bolder; */
+    border-bottom: 2px solid gray;
+}
+
+.shadow-text {
+    text-shadow: 4px 4px 10px black;
 }
 
 /* Custom Card Image Style */
